@@ -109,7 +109,17 @@ main {
     font-size: 16px;
 
 
+
 }
+
+.btn:hover {
+
+    background-color: #6767cf;
+    transform: scale(1.03);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
 
 /* header styles */
 
@@ -221,4 +231,31 @@ input[type="submit"] {
     margin-bottom: 19px;
     border: none;
     padding-left: 32px;
+}
+
+/* footer */
+
+.footer-title {
+    font-weight: 1000;
+    font-size: 100px;
+    height: auto;
+}
+
+footer {
+    max-width: 530px;
+    max-height: 178px;
+    align-items: center;
+    justify-content: center;
+    margin: 103px auto;
+
+
+}
+
+.paragon ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+
 }
