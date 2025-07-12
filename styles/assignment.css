@@ -259,3 +259,140 @@ footer {
     list-style: none;
 
 }
+
+/* responsive adjustments from youtube */
+@media (max-width: 1024px) {
+    nav {
+        margin: 0 40px;
+        flex-wrap: wrap;
+    }
+
+    .banner-title {
+        font-size: 48px;
+    }
+
+    .action-section-1 {
+        flex-direction: column;
+        gap: 30px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .action-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .action-image {
+        max-width: 100%;
+        border-radius: 24px;
+    }
+
+    .action-section-2 {
+        padding: 40px 60px;
+    }
+
+    .action-items {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .action-heads {
+        font-size: 56px;
+    }
+
+    .review-container {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .review {
+        max-width: 100%;
+    }
+
+    .form-column {
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .form-columns {
+        width: 100%;
+    }
+
+    .footer-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 600px) {
+    nav {
+        margin: 0 20px;
+    }
+
+    .nav-title {
+        font-size: 24px;
+    }
+
+    .banner-title {
+        font-size: 32px;
+        padding: 0 10px;
+    }
+
+    .btn {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+
+    .action-title {
+        font-size: 28px;
+    }
+
+    .action-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .action-section-2 {
+        padding: 30px 20px;
+    }
+
+    .action-heads {
+        font-size: 40px;
+    }
+
+    .review-container {
+        flex-direction: column;
+    }
+
+    .form-column {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        height: 50px;
+        padding-left: 16px;
+    }
+
+    .finalmsg {
+        font-size: 48px;
+    }
+
+    footer {
+        margin: 50px 20px;
+    }
+
+    .footer-title {
+        font-size: 40px;
+    }
+
+    .paragon ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+}
